@@ -1,10 +1,13 @@
-<mat-toolbar>
-  <span class="name">David Tozo</span>
-  <span class="example-spacer"></span>
+<div class="row">
+  <mat-toolbar>
+    <div class="col-6">
+      <span class="name">David Tozo</span>
+      <span class="example-spacer"></span>
 
-
-  <div class="example-label"></div>
-  <div>
-    <button mat-raised-button color="primary" class="btn-Download" (click)="downloadPDF()">Curriculo</button>
-  </div>
-</mat-toolbar>
+      <div class="example-label"></div>
+    </div>
+    <div class="col-6 btn-end">
+      <button mat-raised-button class="btn-Download" (click)="downloadPDF()">Currículo</button>
+    </div>
+  </mat-toolbar>
+</div>
