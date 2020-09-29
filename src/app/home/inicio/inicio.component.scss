@@ -1,0 +1,100 @@
+.posicao {
+  padding-top: 100px;
+  padding-left: 180px;
+}
+
+.information {
+  margin-top: 20%;
+  font-family: fangsong;
+}
+
+.name {
+  font-size: 2.5em;
+}
+
+.title {
+  font-size: 1.3em;
+  color: gray;
+  font-style: italic;
+}
+
+.resume {
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+
+
+
+.imagem {
+  z-index: 2;
+  max-width: 260px;
+  max-height: 260px;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-left: -25px;
+  margin-top: -22px;
+  position: relative;
+}
+
+.avatar-stroke {
+  z-index: 1;
+  width: 265px;
+  height: 260px;
+  border: 5px solid #fa7e1e;
+  margin-bottom: 3%;
+  margin-top: 170px;
+  right: -40%;
+  position: relative;
+}
+
+.card-container {
+  padding-left: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.circle-link {
+  height: 45px;
+  width: 45px;
+  border-radius: 40px;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: 1s ease-out;
+}
+
+.bg-color {
+  background-color: #393e46;
+}
+
+.bg-linkedin {
+  background-color: #2867b2;
+}
+
+.bg-facebook {
+  background-color: #3b5998;
+}
+
+.bg-instagram {
+  background-color: #fa7e1e;
+}
+
+.bg-mail {
+  background-color: #d44638;
+}
+
+.circle-link:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+

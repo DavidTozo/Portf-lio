@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
   downloadPDF(){
     let link = document.createElement("a");
     link.download = "Curriculo_David_Tozo";
-    link.href = "/assets/Curriculo_David_Tozo.pdf";
+    link.href = "assets/Curriculo_David_Tozo.pdf";
     link.click();
   }
 
